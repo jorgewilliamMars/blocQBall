@@ -5,17 +5,6 @@
                   v-if="banner"
                   style="background: #00800063"
         >
-            <div class="row">
-                <!-- <div class="col-11">
-                    <q-icon name="notification_important"></q-icon>
-                    Using smart contracts, tokens and crypto has always its risks.
-                    DYOR before using our beta.
-                </div> -->
-                <div class="col-1 flex items-center justify-end">
-                    <q-icon name="close" class="q-pa-xs cursor-pointer" @click="banner=false"></q-icon>
-                </div>
-            </div>
-
         </q-banner>
     <div class="root">
       <div class="card">
